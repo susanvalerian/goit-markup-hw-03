@@ -75,35 +75,39 @@ body {
   font-size: 400;
   line-height: 1.5;
   color: #434455;
-  background-color: white;
-  margin: 0 auto;
-  display: inline;
+  background-color: #212121;
+  height: 100%;
 }
 
 .my-web {
   width: 1440px;
+  margin: 0 auto;
+  background-color: whitesmoke;
 }
 
 .group-list {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
 .menu {
-  heigth: 72px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
+  height: 7vh;
 }
 
 .nav-menu {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3em;
 }
 .nav-items {
   display: flex;
   align-items: flex-end;
-  justify-content: space-around;
+  justify-content: center;
   gap: 3em;
 }
 
@@ -136,6 +140,7 @@ body {
   color: #2e2f42;
   font-weight: 500;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .studio:hover,
@@ -163,6 +168,11 @@ body {
 .title {
   background-color: #2e2f42;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
 }
 
 .heading-one {
@@ -170,6 +180,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  margin-top: 0;
 }
 
 .press-me {
@@ -181,6 +192,8 @@ body {
   border: 0;
   color: white;
   cursor: pointer;
+  padding: 2vh 3vh;
+  border-radius: 3px;
 }
 
 .press-me:hover,
@@ -218,22 +231,49 @@ body {
   display: none;
 }
 
+.strategy-list {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5vh;
+  padding: 10vh;
+}
+
 .team {
   background-color: #f4f4fd;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  padding: 10vh;
+}
+
+.team-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5vh;
 }
 
 .list-item-team {
   border: 2px solid lightgray;
   background-color: white;
+  width: fit-content;
+  text-align: center;
 }
 
 .portofolio {
   text-transform: capitalize;
   color: #2e2f42;
   letter-spacing: 0.02em;
+  padding: 10vh;
+}
+
+.list-of-our-portofolio {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 5vh;
 }
 
 .portofolio .paragraph {
@@ -243,19 +283,21 @@ body {
 .list-item-portofolio {
   border: 2px solid lightgray;
   background-color: #f4f4fd;
+  width: fit-content;
 }
 
 .team .heading-three,
 .portofolio .heading-three,
 .team .paragraph,
 .portofolio .paragraph {
-  text-indent: 2%;
+  text-indent: 1vh;
 }
 
 .bottom {
   color: #f4f4fd;
   background-color: #2e2f42;
   letter-spacing: 0.02em;
+  padding: 10vh;
 }
 
 .bottom .paragraph {
