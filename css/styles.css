@@ -1,0 +1,278 @@
+.roboto-thin {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 400;
+  line-height: 1.5;
+  color: #434455;
+  background-color: white;
+  margin: 0 auto;
+  display: inline;
+}
+
+.my-web {
+  width: 1440px;
+}
+
+.group-list {
+  list-style-type: none;
+  margin: 0;
+}
+
+.menu {
+  heigth: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: flex-end;
+}
+.nav-items {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  gap: 3em;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contacts-list {
+  display: flex;
+  align-items: end;
+  gap: 2em;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4d5ae5;
+}
+
+.logo-span {
+  color: #2e2f42;
+}
+
+.studio {
+  color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.studio:hover,
+.studio:active,
+.studio:focus {
+  color: #404bbf;
+}
+
+.address-me {
+  text-decoration: none;
+  color: #434455;
+  cursor: pointer;
+  font-style: normal;
+  letter-spacing: 0.02em;
+}
+
+.address-me:hover,
+.address-me:active,
+.address-me:focus {
+  text-decoration: none;
+  cursor: pointer;
+  color: #404bbf;
+}
+
+.title {
+  background-color: #2e2f42;
+  text-align: center;
+}
+
+.heading-one {
+  color: white;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+}
+
+.press-me {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  line-height: 1.5;
+  border: 0;
+  color: white;
+  cursor: pointer;
+}
+
+.press-me:hover,
+.press-me:active,
+.press-me:focus {
+  background-color: #404bbf;
+  color: #2e2f42;
+}
+
+.heading-two {
+  color: ##212121;
+  font-size: 36px;
+  list-style-type: none;
+  text-align: center;
+  line-height: 1.11em;
+  letter-spacing: 0.02em;
+}
+
+.heading-three {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2em;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.paragraph {
+  margin-bottom: 35px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.strategy > .heading-two {
+  display: none;
+}
+
+.team {
+  background-color: #f4f4fd;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.list-item-team {
+  border: 2px solid lightgray;
+  background-color: white;
+}
+
+.portofolio {
+  text-transform: capitalize;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+
+.portofolio .paragraph {
+  color: #434455;
+}
+
+.list-item-portofolio {
+  border: 2px solid lightgray;
+  background-color: #f4f4fd;
+}
+
+.team .heading-three,
+.portofolio .heading-three,
+.team .paragraph,
+.portofolio .paragraph {
+  text-indent: 2%;
+}
+
+.bottom {
+  color: #f4f4fd;
+  background-color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+
+.bottom .paragraph {
+  color: #f4f4fd;
+}
+
+.bottom .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #4d5ae5;
+}
+
+.bottom .logo-span {
+  color: #f4f4fd;
+}
