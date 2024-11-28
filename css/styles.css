@@ -79,6 +79,10 @@ body {
   height: 100%;
 }
 
+img {
+  display: block;
+}
+
 .my-web {
   width: 1440px;
   margin: 0 auto;
@@ -91,20 +95,24 @@ body {
   padding: 0;
 }
 
-.menu {
+.navigator {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   height: 7vh;
-  padding: 0 10vh;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .nav-menu {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
   gap: 3em;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
+
 .nav-items {
   display: flex;
   align-items: flex-end;
