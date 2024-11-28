@@ -36,64 +36,62 @@
 
 <body class="frame">
   <div class="my-web">
-    <!-- Aici e prima parte, secțiunea meniului de navigare. -->
-    <header class="menu menu-items">
-      <div class="navigator">
-        <nav class="nav-menu">
-          <a href="./index.html" class="logo menu-items">Web<span class="logo-span">Studio</span></a>
-          <ul class="group-list menu-items nav-items">
-            <li><a href="./index.html" class="logo-web studio">Studio</a></li>
-            <li><a href="" class="logo-web studio">Portfolio</a></li>
-            <li><a href="" class="logo-web studio">Contacts</a></li>
-          </ul>
-        </nav>
-        <!-- Aici sunt datele de contact în prelungirea barei de navigare -->
-        <address class="contacts">
-          <ul class="group-list menu-items contacts-list">
-            <li>
-              <a href="mailto:info@devstudio.com" class="logo-web address-me">info@devstudio.com</a>
-            </li>
-            <li>
-              <a href="tel:+110001111111" class="logo-web address-me">+11 (000) 111-11-11</a>
-            </li>
-          </ul>
-        </address>
-      </div>
+    <!-- Aici e secțiunea meniului de navigare. -->
+    <header class="top-header">
+      <nav class="logo-navigator">
+        <a href="./index.html" class="logo">Web<span class="logo-span">Studio</span></a>
+        <ul class="navigator">
+          <li class="navigator-list-item"><a href="" class="studio">Studio</a></li>
+          <li class="navigator-list-item"><a href="" class="portofolio">Portfolio</a></li>
+          <li class="navigator-list-item"><a href="" class="contacts">Contacts</a></li>
+        </ul>
+      </nav>
+      <!-- Aici sunt datele de contact în prelungirea barei de navigare -->
+      <address class="where-to-find">
+        <ul class="where-to-find-list">
+          <li class="where-to-find-list-item">
+            <a href="mailto:info@devstudio.com" class="email-where-to-find">info@devstudio.com</a>
+          </li>
+          <li class="where-to-find-list-item">
+            <a href="tel:+110001111111" class="phone-where-to-find">+11 (000) 111-11-11</a>
+          </li>
+        </ul>
+      </address>
     </header>
 
     <main>
       <!-- Aici e prima secțiune -->
-      <section class="title">
-        <h1 class="heading-one">Effective Solutions<br> for Your Business</h1>
+      <section class="title-section">
+        <h1 class="heading-one">Effective Solutions for Your Business</h1>
         <button class="press-me" type="button">Order Service</button>
       </section>
 
       <!-- Aici e secțiunea secundă -->
-      <section class="strategy">
+      <section class="strategy-section">
         <h2 class="heading-two">Blue Point</h2>
-        <ul class="group-list strategy-list">
-          <li class="list-item-strategy">
+        <ul class="strategy-list">
+          <li class="strategy-list-item">
             <h3 class="heading-three">Strategy</h3>
             <p class="paragraph">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li class="list-item-strategy">
+          <li class="strategy-list-item">
             <h3 class="heading-three">Punctuality</h3>
             <p class="paragraph">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li class="list-item-strategy">
+          <li class="strategy-list-item">
             <h3 class="heading-three">Diligence</h3>
             <p class="paragraph">
               Research and confirm brands that present the strongest digital growth
               opportunities and minimize risk.
             </p>
           </li>
-          <li class="list-item-strategy">
+          <li class="strategy-list-item">
             <h3 class="heading-three">Technologies</h3>
             <p class="paragraph">
               Design practice focused on digital experiences. We bring forth a deep
@@ -104,26 +102,30 @@
       </section>
 
       <!-- Aici e secțiunea terță -->
-      <section class="team">
+      <section>
         <h2 class="heading-two">Our Team</h2>
-        <ul class="group-list team-list">
-          <li class="list-item-team">
-            <img src="./images/markguerrero.jpg" alt="Portrait of Mark Guerrero" width="264" height="260">
+        <ul class="out-team-list">
+          <li class="out-team-list-item">
+            <img class="out-team-list-item-img" src="./images/markguerrero.jpg" alt="Portrait of Mark Guerrero"
+              width="264" height="260">
             <h3 class="heading-three">Mark Guerrero</h3>
             <p class="paragraph">Product Designer</p>
           </li>
-          <li class="list-item-team">
-            <img src="./images/tomford.jpg" alt="Portrait of Tom Ford" width="264" height="260">
+          <li class="out-team-list-item">
+            <img class="out-team-list-item-img" src="./images/tomford.jpg" alt="Portrait of Tom Ford" width="264"
+              height="260">
             <h3 class="heading-three">Tom Ford</h3>
             <p class="paragraph">Frontend Developer</p>
           </li>
-          <li class="list-item-team">
-            <img src="./images/camilagarcia.jpg" alt="Portrait of Camila Garcia" width="264" height="260">
+          <li class="out-team-list-item">
+            <img class="out-team-list-item-img" src="./images/camilagarcia.jpg" alt="Portrait of Camila Garcia"
+              width="264" height="260">
             <h3 class="heading-three">Camila Garcia</h3>
             <p class="paragraph">Marketing</p>
           </li>
-          <li class="list-item-team">
-            <img src="./images/danielwilson.jpg" alt="Portrait of Daniel Wilson" width="264" height="260">
+          <li class="out-team-list-item">
+            <img class="out-team-list-item-img" src="./images/danielwilson.jpg" alt="Portrait of Daniel Wilson"
+              width="264" height="260">
             <h3 class="heading-three">Daniel Wilson</h3>
             <p class="paragraph">UI Designer</p>
           </li>
@@ -132,41 +134,41 @@
 
       <!-- Aici e secțiunea cvadră -->
       <section class="portofolio">
-        <h2 class="heading-two our-portofolio">Our Portfolio</h2>
-        <ul class="group-list list-of-our-portofolio">
-          <li class="list-item-portofolio">
-            <img class="li bank-app" src="./images/bankapp.jpg" alt="Prezentation of a webpage" width="360"
-              height="300">
+        <h2 class="heading-two">Our Portfolio</h2>
+        <ul class="portofolio-list">
+          <li class="portofolio-list-item">
+            <img class="portofolio-list-item-img" class="bank-app-img" src="./images/bankapp.jpg"
+              alt="Prezentation of a webpage" width="360" height="300">
             <h3 class="heading-three">Banking App</h3>
             <p class="paragraph">App</p>
           </li>
-          <li class="list-item-portofolio">
-            <img class="marketing" src="./images/qrcode.jpg" alt="Reading a qrcode with a smarphone" width="360"
-              height="300">
+          <li class="portofolio-list-item">
+            <img class="portofolio-list-item-img" class="marketing" src="./images/qrcode.jpg"
+              alt="Reading a qrcode with a smarphone" width="360" height="300">
             <h3 class="heading-three">Cashless Payment</h3>
             <p class="paragraph">Marketing</p>
           </li>
-          <li class="list-item-portofolio">
-            <img class="meditation-app" src="./images/laptop.jpg" alt="Laptop and phone mirroring" width="360"
-              height="300">
+          <li class="portofolio-list-item">
+            <img class="portofolio-list-item-img" class="meditation-app" src="./images/laptop.jpg"
+              alt="Laptop and phone mirroring" width="360" height="300">
             <h3 class="heading-three">Meditation App</h3>
             <p class="paragraph">App</p>
           </li>
-          <li class="list-item-portofolio">
-            <img class="taxi-service" src="./images/cardrive.jpg" alt="Gloved hands held on a steering wheel"
-              width="360" height="300">
+          <li class="portofolio-list-item">
+            <img class="portofolio-list-item-img" class="taxi-service" src="./images/cardrive.jpg"
+              alt="Gloved hands held on a steering wheel" width="360" height="300">
             <h3 class="heading-three">Taxi Service</h3>
             <p class="paragraph">Marketing</p>
           </li>
-          <li class="list-item-portofolio">
-            <img class="screen-illustration" src="./images/mobilephone.jpg" alt="Wallpapes on smartphone" width="360"
-              height="300">
+          <li class="portofolio-list-item">
+            <img class="portofolio-list-item-img" class="screen-illustration" src="./images/mobilephone.jpg"
+              alt="Wallpapes on smartphone" width="360" height="300">
             <h3 class="heading-three">Screen Illustrations</h3>
             <p class="paragraph">Design</p>
           </li>
-          <li class="list-item-portofolio">
-            <img class="online-courses" src="./images/videocalling.jpg" alt="Taking a videocall on the street"
-              width="360" height="300">
+          <li class="portofolio-list-item">
+            <img class="portofolio-list-item-img" class="online-courses" src="./images/videocalling.jpg"
+              alt="Taking a videocall on the street" width="360" height="300">
             <h3 class="heading-three">Online Courses</h3>
             <p class="paragraph">Marketing</p>
           </li>
@@ -177,8 +179,8 @@
 
     <!-- Footerul cu logo și o mică descriere -->
     <footer class="bottom">
-      <a href="./index.html" class="logo menu-items">Web<span class="logo-span">Studio</span></a>
-      <p class="paragraph list-item-strategy">
+      <a href="./index.html" class="logo">Web<span class="logo-span">Studio</span></a>
+      <p class="paragraph">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
       </p>
