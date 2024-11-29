@@ -65,6 +65,14 @@
   box-sizing: border-box;
 }
 
+a:link,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 400;
@@ -138,8 +146,7 @@ ol {
   text-decoration: none;
 }
 
-.navigator-list-item > a:before {
-  color: red;
+.navigator-list-item {
   text-decoration: none;
   padding: 24px 0;
   font-weight: 500;
