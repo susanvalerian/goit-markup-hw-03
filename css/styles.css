@@ -108,18 +108,19 @@ ol {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  padding: 15px 0;
 }
 
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 24px 0;
 }
 
 .logo-navigator {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 24px 0;
 }
 
 .logo {
@@ -346,11 +347,11 @@ ol {
   padding: 100px 0;
   width: 1440px;
   margin: 0 auto;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .bottom-end {
+  display: inline-block;
+  margin-bottom: 16px;
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 1158px;
