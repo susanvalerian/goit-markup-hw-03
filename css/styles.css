@@ -110,10 +110,10 @@ ol {
   margin: 0 auto;
 }
 
-.logo-nav-address {
+.container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 24px 0;
 }
 
 .logo-navigator {
@@ -148,7 +148,6 @@ ol {
 
 .navigator-list-item {
   text-decoration: none;
-  padding: 24px 0;
   font-weight: 500;
   letter-spacing: 0.02em;
 }
@@ -214,15 +213,15 @@ ol {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
 }
 
-.title-container {
+.title {
   max-width: 496px;
-  margin: 0 auto;
 }
 
 .press-me {
+  display: block;
+  margin: 0 auto;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   letter-spacing: 0.04em;
@@ -245,11 +244,7 @@ ol {
 
 .strategy-section {
   background-color: white;
-}
-
-.strategy-container {
-  max-width: 1158px;
-  margin: 0 auto;
+  padding: 120px 0;
 }
 
 .visually-hidden {
@@ -269,7 +264,6 @@ ol {
   align-items: center;
   justify-content: space-around;
   gap: 24px;
-  padding: 120px 0px;
 }
 
 .strategy-list-item {
@@ -284,12 +278,7 @@ ol {
   padding: 120px 0;
 }
 
-.our-team-container {
-  max-width: 1158px;
-  margin: 0 auto;
-}
-
-.our-team-container > .heading-two {
+.our-team > .heading-two {
   margin-bottom: 72px;
 }
 
@@ -323,13 +312,7 @@ ol {
   padding: 120px 0;
 }
 
-.portofolio-container {
-  color: #2e2f42;
-  max-width: 1158px;
-  margin: 0 auto;
-}
-
-.portofolio-container > .heading-two {
+.portofolio > .heading-two {
   margin-bottom: 72px;
 }
 
@@ -367,7 +350,7 @@ ol {
   margin-bottom: 16px;
 }
 
-.bottom-container {
+.bottom-end {
   color: #f4f4fd;
   letter-spacing: 0.02em;
   max-width: 1158px;
