@@ -120,7 +120,6 @@ ol {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 24px 0;
 }
 
 .logo {
@@ -145,6 +144,7 @@ ol {
   gap: 40px;
   align-items: center;
   text-decoration: none;
+  padding: 24px 0;
 }
 
 .navigator-list-item {
@@ -372,8 +372,9 @@ ol {
   text-decoration: none;
   color: #4d5ae5;
   display: inline-block;
+  margin-bottom: 16px;
 }
 
-.logo-span {
+.logo-secund-span {
   color: #f4f4fd;
 }
