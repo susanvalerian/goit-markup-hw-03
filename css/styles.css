@@ -113,7 +113,8 @@ ol {
 
 .container {
   width: 1158px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo-navigator {
@@ -220,7 +221,8 @@ ol {
 
 .title {
   max-width: 496px;
-  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .press-me {
@@ -380,4 +382,54 @@ ol {
 
 .logo-secund-span {
   color: #f4f4fd;
+}
+
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.smantena {
+  width: 30px;
+  height: 32px;
+  background-position: 0 0;
+}
+.smastronaut {
+  width: 32px;
+  height: 32px;
+  background-position: -64px 0;
+}
+.smclock {
+  width: 31px;
+  height: 32px;
+  background-position: -128px 0;
+}
+.smcomputer {
+  width: 32px;
+  height: 32px;
+  background-position: -192px 0;
+}
+.smfacebook {
+  width: 32px;
+  height: 32px;
+  background-position: -256px 0;
+}
+.sminstagram {
+  width: 32px;
+  height: 32px;
+  background-position: -320px 0;
+}
+.smlinkedin {
+  width: 32px;
+  height: 32px;
+  background-position: -384px 0;
+}
+.smtwitter {
+  width: 32px;
+  height: 32px;
+  background-position: -448px 0;
+}
+
+.strategy-icons {
+  fill: red;
 }
