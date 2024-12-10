@@ -220,6 +220,7 @@ ol {
 
 .title {
   max-width: 496px;
+  display: block;
 }
 
 .press-me {
