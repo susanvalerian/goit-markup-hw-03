@@ -157,7 +157,6 @@ body {
   text-decoration: none;
   color: #4d5ae5;
   margin-right: 76px;
-  padding: 24px 0;
 }
 
 .logo-span {
@@ -170,14 +169,12 @@ body {
   gap: 40px;
   align-items: center;
   text-decoration: none;
-  padding: 24px 0;
 }
 
 .navigator-list-item {
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 0.02em;
-  padding: 24px 0;
 }
 
 .where-to-find-list {
