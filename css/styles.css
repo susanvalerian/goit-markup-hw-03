@@ -86,10 +86,11 @@ address {
 }
 .ul,
 .ol {
-  list-style: none;
+  list-style-type: none;
   padding: 0;
   margin: 0;
 }
+
 /* _______ stop resetare stiluri _______ */
 
 *,
